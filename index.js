@@ -7,10 +7,6 @@ const post = require('./routes/post');
 
 require('./start-up/body-parser')(app);
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
-
 
 require('./start-up/mongo')();
 
