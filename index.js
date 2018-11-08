@@ -26,7 +26,7 @@ if(process.env.NODE_ENV === 'production') {
 
 }
 
-
-app.listen(5000, () => {
-    console.log('Приклад застосунку, який прослуховує 5000-ий порт!');
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`port ${PORT}`);
 });
