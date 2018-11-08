@@ -108,7 +108,7 @@ router.delete('/uncomment/:id/:comment_id', (req, res) => {
 router.post('/:id', (req, res) => {
     Post.findById(req.params.id)
         .then(post => {
-            // Check if comment exist
+            console.log(post);
 
         })
         .catch(err => res.status(404).json(err));
