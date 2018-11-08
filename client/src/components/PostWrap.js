@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 import TopForm from './TopForm';
 import ListWrap from './ListWrap';
 import axios from "axios/index";
@@ -89,8 +87,5 @@ class PostWrap extends React.Component {
     }
 };
 
-PostWrap.propTypes = {
-
-};
 
 export default PostWrap;

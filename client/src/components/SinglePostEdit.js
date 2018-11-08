@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 
 import axios from 'axios';
 
@@ -61,6 +60,5 @@ class SinglePostEdit extends Component {
     }
 }
 
-SinglePostEdit.propTypes = {};
 
 export default SinglePostEdit;
